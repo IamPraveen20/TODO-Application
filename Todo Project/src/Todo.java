@@ -14,7 +14,7 @@ public class Todo {
 			
 			System.out.println("Enter your choices");
 			
-//			try {
+			
 			choices = scan.nextInt();
 			scan.nextLine();
 
@@ -44,9 +44,9 @@ public class Todo {
 				default :
 					System.out.println("Pick from given choices");
 			}
-//			}catch (Exception e) {
-//				System.out.println("Please check and enter");
-//			}
+
+			
+			
 		}
 	}
 
